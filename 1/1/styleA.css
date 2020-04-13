@@ -1,0 +1,108 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+h1{
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 90px;
+	margin-top: 200px;
+	text-shadow: 4px 4px 4px #000;
+}
+h2{
+	font-size: 48px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+p{
+	font-size: 24px;
+	/*color: #EEEEEE ;*/
+	line-height: 1.8;
+	margin-bottom: 0px;
+}
+section{
+	padding-top: 120px 0;
+}
+
+.topmaring-xs{
+	margin-top: 15px;
+}
+.topmaring-sm{
+	margin-top: 30px;
+}
+.topmaring-lg{
+	margin-top: 60px;
+}
+
+.navbar .navbar-expand-lg .fixed-top{
+	/*background-color: rgba(0,123,255,.25);*/
+	background-color: blue;
+}
+.navbar{
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+	min-height: 100px;
+}
+
+.nav-link{
+	color: #393E46 ;
+	height: 20px;
+	font-size: 15px;
+}
+.nav-link:hover{
+	color: #00ADB5;
+}
+.logo-brand{
+	min-width: 80px;
+	max-width: 120px;
+}
+.navbar-toggler{
+	font-size: 48px;
+}
+.navbar-toggler:focus{
+	outline:none;
+}
+.menu-outline{
+	border: none;
+}
+
+/*INICIO DE LA SECCION 1*/
+#hero {
+	background-image: url(images/headanimation.jpg);
+	box-shadow:inset 4px 4px 15px #000000;
+	background-size: cover;
+	padding-top: 30px;
+	min-height:1000px;
+	color: white;
+
+}
+#hero p{
+	color: white;
+	text-shadow: 12px 12px 8px #444;
+}
+.content-center{
+	max-width: 800px;
+	margin: 0px auto 60px auto;
+	text-align: center;
+
+}
+
+/*TWO COLUMN  */
+	.col-lg-6 p{
+		color: black;
+	}
+
+/*FIN TWO COLUMN*/
+
+
+
+footer{
+	color:#393E46;
+	background-color: black;
+	padding-top: 2rem;
+	text-decoration: none;
+
+}
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+}
