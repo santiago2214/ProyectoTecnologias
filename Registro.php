@@ -1,6 +1,46 @@
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
+
+<!-------------------------------------------------CONEXION BASE DE DATOS FIREBASE-------->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAbA_BUTFIAwrg6cYKdOY9RoaM_uKDx3qM",
+    authDomain: "usuarios-ff59c.firebaseapp.com",
+    databaseURL: "https://usuarios-ff59c.firebaseio.com",
+    projectId: "usuarios-ff59c",
+    storageBucket: "usuarios-ff59c.appspot.com",
+    messagingSenderId: "62931325734",
+    appId: "1:62931325734:web:fc4bbd154db7da8a8467e7",
+    measurementId: "G-GXQNT903YN"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<!-------------------------------------------------//CONEXION BASE DE DATOS FIREBASE-------->
+
+<!---------------------------------------------CONEXION ARCHIVO APP FIREBASE----------------->
+
+<script src="app.js">
+  
+</script>
+<!---------------------------------------------///CONEXION ARCHIVO APP FIREBASE----------------->
+
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +68,7 @@
     <!--NAV BAR. BARRA DE MENÚ-->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container"> 
-    <a class="navbar-brand" href="index.php"><img src="images/logo1.png" alt="logo" class="logo-brand"></a>
+   <!-- <a class="navbar-brand" href="index.php"><img src="images/logo1.png" alt="logo" class="logo-brand"></a>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <ion-icon name="menu-outline"></ion-icon>
     </button>
@@ -69,34 +109,27 @@
         
 
       <!-- Default form login -->
-<form class="text-center border border-light p-5" action="#!">
+<form class="text-center border border-light p-5" action="#!" autocomplete="off">
 
     <p class="h4 mb-4">Crear una Cuenta</p>
 
     <!-- Nombre de Usuario -->
-    <input type="name" id="defaultName" class="form-control mb-4" placeholder="Nombre de Usuario">
+    <input type="name" id="name" class="form-control mb-4" placeholder="Nombre de Usuario">
 
     <!-- Email -->
-    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Correo Electrónico">
+    <input type="email" id="email" class="form-control mb-4" placeholder="Correo Electrónico">
 
     <!-- Password -->
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña" name="clave1">
+    <input type="password" id="password" class="form-control mb-4" placeholder="Contraseña" name="clave1">
 
     <!-- Password -->
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Repetir la Contraseña" name="clave2">
+    <input type="password" id="password" class="form-control mb-4" placeholder="Repetir la Contraseña" name="clave2">
 
-    <div class="d-flex justify-content-around">
-        <div>
-            <!-- Remember me -->
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                <label class="custom-control-label" for="defaultLoginFormRemember">Recuerdame</label>
-            </div>
-        </div>
-    </div>
+
+
 
     <!-- Sign in button -->
-    <button class="btn btn-info btn-block my-4" type="submit">REGISTRARME</button>
+    <button onclick="registrar()" class="btn btn-info btn-block my-4" type="submit">REGISTRARME</button>
 
     <!-- Register -->
     <p>Tengo una Cuenta
