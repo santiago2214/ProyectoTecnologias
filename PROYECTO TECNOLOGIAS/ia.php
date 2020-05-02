@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--   LINK WITH STYLE SHEET-->
-    <link rel="stylesheet" type="text/css" href="styleA.css">
+    <link rel="stylesheet" type="text/css" href="styleia.css">
 
     <!--- LINK WITH GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 
-    <title>Animacion 3D</title>
+    <title>inteligencia Artificial</title>
   </head>
 
 
@@ -54,7 +54,7 @@
             <a class="dropdown-item" href="render.php"id="render">Render</a>
             <a class="dropdown-item" href="animacion.php"id="animacion">Animación</a>
             <a class="dropdown-item" href="fx.php"id="fx">Efectos Especiales</a>
-            <a class="dropdown-item" href="ia.php"id="ai">Inteligencia Artificial </a>
+            <a class="dropdown-item" href=""id="ia.php">Inteligencia Artificial </a>
           </div>
         </li>
       </ul>
@@ -66,17 +66,19 @@
   <section id="hero">
     <div class="container">
       <div class="content-center topmaring">
-        <h1> Animación</h1>
-        <p>La animación es un proceso utilizado por uno o más animadores para dar la sensación de movimiento a imágenes, dibujos u otro tipo de objetos inanimados</p>
+        <h1> Inteligencia Artificial (IA)</h1>
+        <p>La inteligencia artificial es la inteligencia llevada a cabo por máquinas</p>
 
       </div>
     </div>
    </section>
 
-
-	 <div>
+	
 	  
-	<H2>PRINCIPALES HERRAMIENTAS PARA LA ANIMACION 2D Y 3D</H2>
+	  
+	    <div>
+	  
+	<H2>TECNOLOGIAS DE LA INTELIGENCIA ARTIFICIAL</H2>
 	
   <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: white">
 	  <ol class="carousel-indicators">
@@ -85,22 +87,22 @@
 	    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
       </ol>
 	  <div class="carousel-inner" role="listbox">
-	    <div class="carousel-item active"> <img class="d-block mx-auto" src="images/animacion/1.png" alt="First slide">
+	    <div class="carousel-item active"> <img class="d-block mx-auto" src="images/ia/1.png" alt="First slide">
 	      <div class="carousel-caption">
-	        <h5>MOTIONBUILDER</h5>
-	        <h6>Captura de movimiento, animación en keyframes<h6>
+	        <h5>SPEECH RECOGNITION</h5>
+	        <h6>Reconocimiento automático del habla. <h6>
           </div>
         </div>
-	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/animacion/2.png" alt="Second slide">
+	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/ia/2.png" alt="Second slide">
 	      <div class="carousel-caption">
-	        <h5>CINEMA 4D</h5>
-	        <h6>Captura de movimiento, animación en keyframes <h6>
+	        <h5>PLN </h5>
+	        <h6>Procesamiento del lenguaje natural NLP O PLN <h6>
           </div>
         </div>
-	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/animacion/3.png" alt="Third slide">
+	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/ia/3.png" alt="Third slide">
 	      <div class="carousel-caption">
-	        <h5>ANIMATE CC</h5>
-	        <h6>Animación 2D<h6>
+	        <h5>VISUAL RECOGNITION</h5>
+	        <h6>Reconocimiento visual<h6>
 				
           </div>
         </div>
@@ -113,36 +115,26 @@
     <div id="accordion1" role="tablist">
 			    <div class="card">
 			      <div class="card-header" role="tab" id="headingOne1">
-			        <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> MOTIONBUILDER </a> </h5>
+			        <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1">SPEECH RECOGNITION</a> </h5>
 		          </div>
 			      <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
-			        <div class="card-body">MotionBuilder es un software de animación de personajes en 3D producido por Autodesk . Se utiliza para cinematografía virtual , captura de movimiento y animación tradicional de fotogramas clave . Originalmente fue nombrado Filmbox cuando fue creado por primera vez por la compañía canadiense Kaydara, más tarde adquirida y renombrada a MotionBuilder. a su vez fue adquirido por Autodesk.
-
-Se utiliza principalmente en películas, juegos, producción de televisión, así como en otros proyectos multimedia .
-
-En SIGGRAPH 2012, Autodesk anunció una asociación con Weta Digital y Lightstorm Entertainment para desarrollar la próxima generación de la tecnología. </div>
+			        <div class="card-body">El reconocimiento automático del habla es una disciplina perteneciente a la acústica y cuyo objetivo es el reconocimiento de fonemas en una señal de voz. Los sistemas de reconocimiento de voz procesan la señal recogida por un micrófono para identificar las palabras que el usuario pronunció.</div>
 		          </div>
       </div>
 			    <div class="card">
 			      <div class="card-header" role="tab" id="headingTwo1">
-			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> CINEMA 4D </a> </h5>
+			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> PLN </a> </h5>
 		          </div>
-
 			      <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
-			        <div class="card-body">Permite modelado (primitivas, splines, polígonos), texturización y animación. Sus principales virtudes son una muy alta velocidad de renderización, una interfaz altamente personalizable y flexible, y una curva de aprendizaje (comparado con otros programas de prestaciones profesionales similares) muy vertical; en poco tiempo se aprende mucho.
-
-            Una de las características más destacadas de Cinema 4D es la modularidad.
-					  Permite modelado (primitivas, splines, polígonos), texturización y animación. Sus principales virtudes son una muy alta velocidad de renderización, una interfaz altamente personalizable y flexible, y una curva de aprendizaje (comparado con otros programas de prestaciones profesionales similares) muy vertical; en poco tiempo se aprende mucho.
-
-            Una de las características más destacadas de Cinema 4D es la modularidad.</div>
+			        <div class="card-body">Mientras que el reconocimiento del habla se centra en una conversión fiel de la voz a texto, el Procesamiento del lenguaje natural PLN (o NLP, Natural Language Processing, en inglés) es una disciplina que está más ligada al campo de la lingüística, y su objetivo es comprender qué intención tiene el usuario al lanzar un determinado comando, pregunta o afirmación (ya sea escrito o por voz) y qué espera obtener, así como analizar el estado anímico y encontrar patrones subjetivos en éstos. En resumen, es el campo que ayuda a la comunicación (principalmente sonora y escrita) hombre máquina, y viceversa.</div>
 		          </div>
       </div>
 			    <div class="card">
 			      <div class="card-header" role="tab" id="headingThree1">
-			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> ANIMATE CC</a> </h5>
+			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> VISUAL RECOGNITION</a> </h5>
 		          </div>
 			      <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
-			        <div class="card-body">Adobe Animate (anteriormente conocido como Adobe Flash Professional, Macromedia Flash, y FutureSplash Animator) es uno de los programas más famosos de la empresa Adobe, junto con Adobe Illustrator y Adobe Photoshop. Se trata de una aplicación de creación y manipulación de gráficos vectoriales con posibilidades de manejo de código mediante un lenguaje de scripting llamado ActionScript. Animate es un estudio de animación que trabaja sobre "fotogramas" y está destinado a la producción y entrega de contenido interactivo para diferentes audiencias de todo el mundo sin importar la plataforma. Es actualmente desarrollado y comercializado por Adobe Systems Incorporated y forma parte de la familia Adobe Creative Suite, su distribución viene en diferentes presentaciones, que van desde su forma individual o como parte de un paquete, siendo estos: Adobe Creative Suite Design Premium, Adobe Creative Suite Web Premium y Web Standard, Adobe Creative Suite Production Studio Premium y Adobe Creative Suite Master Collection. Se usa sobre animaciones publicitarias, cortometrajes animados y series de animación, entre otros.</div>
+			        <div class="card-body">El reconocimiento visual es la disciplina basada en el procesado de la señal de imagen o vídeo, con el objetivo de reconocer patrones, formas, y en el mejor de los casos, identificar fielmente los diferentes elementos en una imagen.</div>
 		          </div>
       </div>
     </div>
@@ -155,6 +147,8 @@ En SIGGRAPH 2012, Autodesk anunció una asociación con Weta Digital y Lightstor
 	  
 	  
 	  
+	  
+
 </body>
 <!--CIERRE DEL BODY -->
 

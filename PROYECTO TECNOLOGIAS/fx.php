@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--   LINK WITH STYLE SHEET-->
-    <link rel="stylesheet" type="text/css" href="styleA.css">
+    <link rel="stylesheet" type="text/css" href="styleFX.css">
 
     <!--- LINK WITH GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 
-    <title>Animacion 3D</title>
+    <title>Efectos Especiales FX</title>
   </head>
 
 
@@ -54,7 +54,7 @@
             <a class="dropdown-item" href="render.php"id="render">Render</a>
             <a class="dropdown-item" href="animacion.php"id="animacion">Animación</a>
             <a class="dropdown-item" href="fx.php"id="fx">Efectos Especiales</a>
-            <a class="dropdown-item" href="ia.php"id="ai">Inteligencia Artificial </a>
+            <a class="dropdown-item" href="ia.php"id="ia">Inteligencia Artificial </a>
           </div>
         </li>
       </ul>
@@ -66,17 +66,19 @@
   <section id="hero">
     <div class="container">
       <div class="content-center topmaring">
-        <h1> Animación</h1>
-        <p>La animación es un proceso utilizado por uno o más animadores para dar la sensación de movimiento a imágenes, dibujos u otro tipo de objetos inanimados</p>
+        <h1> Efectos Especiales (FX)</h1>
+        <p>Son un conjunto de técnicas y elementos que se utilizan en televisión o cine para crear ambientes, personajes o realidades que, no pueden suceder en la vida real, o bien no se pueden filmar.</p>
 
       </div>
     </div>
    </section>
 
-
-	 <div>
 	  
-	<H2>PRINCIPALES HERRAMIENTAS PARA LA ANIMACION 2D Y 3D</H2>
+	  
+	  
+	    <div>
+	  
+	<H2>PROGRAMAS PARA REALIZAR EFECTOS ESPECIALES</H2>
 	
   <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: white">
 	  <ol class="carousel-indicators">
@@ -85,22 +87,22 @@
 	    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
       </ol>
 	  <div class="carousel-inner" role="listbox">
-	    <div class="carousel-item active"> <img class="d-block mx-auto" src="images/animacion/1.png" alt="First slide">
+	    <div class="carousel-item active"> <img class="d-block mx-auto" src="images/fx/1.png" alt="First slide">
 	      <div class="carousel-caption">
-	        <h5>MOTIONBUILDER</h5>
-	        <h6>Captura de movimiento, animación en keyframes<h6>
+	        <h5>ADOBE AFTER EFFECTS</h5>
+	        <h6>Los efectos especiales en tus videos de la forma mas sencilla. <h6>
           </div>
         </div>
-	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/animacion/2.png" alt="Second slide">
+	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/fx/2.png" alt="Second slide">
 	      <div class="carousel-caption">
-	        <h5>CINEMA 4D</h5>
-	        <h6>Captura de movimiento, animación en keyframes <h6>
+	        <h5>SPEEDGRADECC </h5>
+	        <h6>Los artistas, profesionales de efectos especiales y los editores de vídeos tendrán una herramienta con la que sorprender con todos sus proyectos. <h6>
           </div>
         </div>
-	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/animacion/3.png" alt="Third slide">
+	    <div class="carousel-item"> <img class="d-block mx-auto" src="images/fx/3.png" alt="Third slide">
 	      <div class="carousel-caption">
-	        <h5>ANIMATE CC</h5>
-	        <h6>Animación 2D<h6>
+	        <h5>NATRON</h5>
+	        <h6>Editar todos tus vídeos y darles los efectos que quieres en ellos es mucho más simple con NATRON<h6>
 				
           </div>
         </div>
@@ -113,36 +115,31 @@
     <div id="accordion1" role="tablist">
 			    <div class="card">
 			      <div class="card-header" role="tab" id="headingOne1">
-			        <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> MOTIONBUILDER </a> </h5>
+			        <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> ADOBE AFTER EFFECTS</a> </h5>
 		          </div>
 			      <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
-			        <div class="card-body">MotionBuilder es un software de animación de personajes en 3D producido por Autodesk . Se utiliza para cinematografía virtual , captura de movimiento y animación tradicional de fotogramas clave . Originalmente fue nombrado Filmbox cuando fue creado por primera vez por la compañía canadiense Kaydara, más tarde adquirida y renombrada a MotionBuilder. a su vez fue adquirido por Autodesk.
+			        <div class="card-body">Adobe After Effects es una aplicación que tiene forma de estudio destinado para la creación o aplicación en una composición, así como realización de gráficos profesionales en movimiento y efectos especiales, que desde sus raíces han consistido básicamente en la superposición de capas. Adobe After Effects es uno de los softwares basados en línea de tiempo más potentes del mercado junto con Autodesk Combustion y Eyeon Fusion.
 
-Se utiliza principalmente en películas, juegos, producción de televisión, así como en otros proyectos multimedia .
-
-En SIGGRAPH 2012, Autodesk anunció una asociación con Weta Digital y Lightstorm Entertainment para desarrollar la próxima generación de la tecnología. </div>
+Una de las principales fortalezas del programa es que existen una gran cantidad de plugins desarrollados por otras compañías que ayudan a aligerar las cargas de trabajo en lo que a aplicación de efectos se refiere. A partir de las versiones 6.5 y 7 mejora su capacidad para manejar archivos de gráficos y vídeo de distintos formatos. Por otro lado, su interfaz resulta familiar a muchos editores dedicados a la post-producción, lo que lo convierte en la elección ideal para la mayoría de profesionales </div>
 		          </div>
       </div>
 			    <div class="card">
 			      <div class="card-header" role="tab" id="headingTwo1">
-			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> CINEMA 4D </a> </h5>
+			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> SPEEDGRADECC</a> </h5>
 		          </div>
-
 			      <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
-			        <div class="card-body">Permite modelado (primitivas, splines, polígonos), texturización y animación. Sus principales virtudes son una muy alta velocidad de renderización, una interfaz altamente personalizable y flexible, y una curva de aprendizaje (comparado con otros programas de prestaciones profesionales similares) muy vertical; en poco tiempo se aprende mucho.
-
-            Una de las características más destacadas de Cinema 4D es la modularidad.
-					  Permite modelado (primitivas, splines, polígonos), texturización y animación. Sus principales virtudes son una muy alta velocidad de renderización, una interfaz altamente personalizable y flexible, y una curva de aprendizaje (comparado con otros programas de prestaciones profesionales similares) muy vertical; en poco tiempo se aprende mucho.
-
-            Una de las características más destacadas de Cinema 4D es la modularidad.</div>
+			        <div class="card-body">SpeedGrade es una aplicación de gradación del color que ofrece herramientas de diseño del aspecto y de la corrección del color basadas en capas que aseguran que los proyectos digitales de vídeo son coherentes desde el punto de vista visual y atractivos desde el punto de vista estético. SpeedGrade es para editores, cineastas, coloristas y artistas de efectos visuales que deseen llevar su trabajo creativo al siguiente nivel en un entorno profesional de gradación </div>
 		          </div>
       </div>
 			    <div class="card">
 			      <div class="card-header" role="tab" id="headingThree1">
-			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> ANIMATE CC</a> </h5>
+			        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> NATRON</a> </h5>
 		          </div>
 			      <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
-			        <div class="card-body">Adobe Animate (anteriormente conocido como Adobe Flash Professional, Macromedia Flash, y FutureSplash Animator) es uno de los programas más famosos de la empresa Adobe, junto con Adobe Illustrator y Adobe Photoshop. Se trata de una aplicación de creación y manipulación de gráficos vectoriales con posibilidades de manejo de código mediante un lenguaje de scripting llamado ActionScript. Animate es un estudio de animación que trabaja sobre "fotogramas" y está destinado a la producción y entrega de contenido interactivo para diferentes audiencias de todo el mundo sin importar la plataforma. Es actualmente desarrollado y comercializado por Adobe Systems Incorporated y forma parte de la familia Adobe Creative Suite, su distribución viene en diferentes presentaciones, que van desde su forma individual o como parte de un paquete, siendo estos: Adobe Creative Suite Design Premium, Adobe Creative Suite Web Premium y Web Standard, Adobe Creative Suite Production Studio Premium y Adobe Creative Suite Master Collection. Se usa sobre animaciones publicitarias, cortometrajes animados y series de animación, entre otros.</div>
+			        <div class="card-body">Natron es un programa de edición de vídeo y de composición nodal de código abierto. Resulta cómodo trabajar con esta aplicación, es impresionante todo lo que se puede hacer con Natron. Es una herramienta especializada, que viene con una interfaz relativamente simple, que aplana la curva de aprendizaje considerablemente en un programa de este tipo.
+
+
+Si necesitas una buena herramienta para iniciarte o crear efectos visuales, intros, realizar tareas de composición postproducción, crear gráficos, enlazar fluidamente ideas visuales y otras, este programa será una buena elección. Por supuesto para este tipo de tareas, la herramienta ideal y que cualquier profesional escogería yo creo que sería After Effects. Esta puede realizar todos estos trabajos de manera muy eficaz. El problema con esta aplicación es que no es gratuita y en para poder utilizarla debemos o bien comprarla o crackearla, algo que profesionalmente no queda muy elegante.</div>
 		          </div>
       </div>
     </div>
@@ -155,6 +152,10 @@ En SIGGRAPH 2012, Autodesk anunció una asociación con Weta Digital y Lightstor
 	  
 	  
 	  
+	  
+	  
+	  
+
 </body>
 <!--CIERRE DEL BODY -->
 
